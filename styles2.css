@@ -55,10 +55,10 @@ body {
     background-color: var(--color-negro);
     border-bottom: 2px solid var(--color-primario);
     z-index: 10;
+    padding: 0px 20px;
 }
 .cont-btn {
     padding: 8px 0px 0px 0px;
-    margin-right: 20px;
     position: relative;
     width: 49px;
     height: 38px;
@@ -115,9 +115,9 @@ body {
     font-size: 1.2rem;
     color: var(--color-blanco);
 }
-.img-logo-banner {
+/* .img-logo-banner {
    margin-left: 20px;
-}
+} */
 .img-logo-banner img {
     width: 150px;
     height: 60px;
@@ -127,7 +127,7 @@ body {
     display: none;
 }
 .hide { 
-    transform: translate(-320px, 0px);
+    transform: translate(328px, 0px);
     transition: transform 600ms ease-out;
     transition-delay: 100ms;
 }
@@ -140,7 +140,7 @@ body {
     box-shadow: 1px 1px 8px 5px rgb(0, 0, 0, 0.8);
     padding: 15px 10px 5px 10px;
     top: 80px;
-    left: 102%;
+    left: -328px;
     transition: transform 600ms ease-out;
     transition-delay: 100ms;
     z-index: 9;
