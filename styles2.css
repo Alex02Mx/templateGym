@@ -48,6 +48,7 @@ body {
 .header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     position: fixed;
     width: 100%;
     height: 80px;
@@ -57,7 +58,7 @@ body {
 }
 .cont-btn {
     padding: 8px 0px 0px 0px;
-    margin-left: 20px;
+    margin-right: 20px;
     position: relative;
     width: 49px;
     height: 38px;
@@ -66,7 +67,7 @@ body {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    left: 0px;
+    right: 0;
 }
 .btn {
     position: relative;
@@ -115,20 +116,18 @@ body {
     color: var(--color-blanco);
 }
 .img-logo-banner {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+   margin-left: 20px;
 }
 .img-logo-banner img {
-    width: 235px;
+    width: 150px;
     height: 60px;
-    padding: 0px 60px 0px 20px;
+    padding: 0px 0px 0px 0px;
 }
 .on-off { 
     display: none;
 }
 .hide { 
-    transform: translate(328px, 0px);
+    transform: translate(-320px, 0px);
     transition: transform 600ms ease-out;
     transition-delay: 100ms;
 }
@@ -141,7 +140,7 @@ body {
     box-shadow: 1px 1px 8px 5px rgb(0, 0, 0, 0.8);
     padding: 15px 10px 5px 10px;
     top: 80px;
-    left: -328px;
+    left: 102%;
     transition: transform 600ms ease-out;
     transition-delay: 100ms;
     z-index: 9;
