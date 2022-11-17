@@ -75,6 +75,7 @@ function clear_containers () {
   cont_two.innerHTML = "";
   cont_three.innerHTML = "";
   cont_four.innerHTML = "";
+  cont_five.innerHTML = "";
   window.scrollTo(0, 0)
 }
 function inicio() {
@@ -94,6 +95,11 @@ function personalizados() {
 }
 function rutinas() {
   rend_I_T_P("rutinas", cont_one);
+  rend_I_T_P("sentadilla", cont_two);
+  rend_I_T_P("prensa", cont_three);
+  rend_I_T_P("pesoMuerto", cont_four);
+  rend_I_T_P("zancada", cont_five);
+
 }
 function nutricion() {
   rend_I_T_P("nutricion", cont_one);
