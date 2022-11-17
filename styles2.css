@@ -127,7 +127,7 @@ body {
     display: none;
 }
 .hide { 
-    transform: translate(328px, 0px);
+    transform: translate(-328px, 0px);
     transition: transform 600ms ease-out;
     transition-delay: 100ms;
 }
@@ -140,7 +140,7 @@ body {
     box-shadow: 1px 1px 8px 5px rgb(0, 0, 0, 0.8);
     padding: 15px 10px 5px 10px;
     top: 80px;
-    left: -328px;
+    left: 102%;
     transition: transform 600ms ease-out;
     transition-delay: 100ms;
     z-index: 9;
