@@ -91,7 +91,7 @@ function planes() {
 function personalizados() {
   rend_I_T_P("personalizados", cont_one);
   rend_I_T_P("coach", cont_two);
-  rend_I_T_P("coach_two", cont_three);
+  rend_I_T_P("coach_two", cont_two);
 }
 function rutinas() {
   rend_I_T_P("rutinas", cont_one);

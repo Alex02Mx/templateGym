@@ -139,7 +139,7 @@ function rend_I_T_P(seccion, container){
                     let var_alt = items[item].alt;
                     let titulo = items[item].titulo;
                     let description = items[item].description;
-                    container.innerHTML=`
+                    container.innerHTML+=`
                     <div class="cont-titulo-parrafo">
                          <img class="img-intro" src=${var_imagen} alt=${var_alt}>
                          <h2 class="sub-parrafo">${titulo}</h2>
