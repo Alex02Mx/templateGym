@@ -8,6 +8,7 @@
   --color-terciario: #1E1C0C;
   --color-extra: #469F92;
   --color-blanco: #ffffff;
+  --color-texto: #757776;
   --color-b-opac: rgb(255, 255, 255, 0.3);
   --color-negro: #000000;
   /* fuentes */
@@ -127,7 +128,7 @@ body {
     display: none;
 }
 .hide { 
-    transform: translate(-328px, 0px);
+    transform: translate(-102%, 0px);
     transition: transform 600ms ease-out;
     transition-delay: 100ms;
 }
@@ -135,7 +136,7 @@ body {
     position: fixed; 
     overflow-y: scroll;
     inset: 0; 
-    width: 320px;
+    width: 100%;
     background-color:var(--color-terciario);
     box-shadow: 1px 1px 8px 5px rgb(0, 0, 0, 0.8);
     padding: 15px 10px 5px 10px;
@@ -162,7 +163,7 @@ body {
     padding: 10px 0px;
     border-bottom: 1px solid var(--color-b-opac);
     cursor: pointer;
-    width: 250px;
+    width: 90%;
 }
 .menu ul li:hover {
     color: var(--color-primario);
@@ -193,35 +194,42 @@ body {
     width: 100%;
     height: 100%;
     z-index: 1;
-    background-color: var(--color-negro);
-    padding: 2px 0px 2px 0px;
+    background-color: var(--color-blanco);
+    /* background-color: var(--color-negro); */
+    padding: 0px 0px 2px 0px;
 }
 .img-intro {
     width: 100%;
-    height: 280px;
+    height: 180px;
     object-fit: cover;
     object-position: center;
     background-repeat: no-repeat;
     z-index: 2;
-    box-shadow: 1px 1px 5px 2px rgb(0, 0, 0, .5);
+    /* box-shadow: 1px 1px 5px 2px rgb(0, 0, 0, .5); */
 }
 .cont-titulo-parrafo {
-    background-color: var(--color-secundario);
-    padding: 5px 5px;
+    background-color: var(--color-blanco);
+
+    /* background-color: var(--color-secundario); */
+    /* padding: 5px 5px; */
 }
 .sub-parrafo {
-    text-align: center;
+    text-align: left;
     font-size: 2rem;
-    padding: 10px 20px;
+    padding: 25px 20px;
 }
 .parrafo-info {
-    font-weight: bold;
+    font-weight:500;
+    line-height: 2.5rem;
+    color: var(--color-texto);
     text-align: left;
-    padding: 0px 20px 10px 20px;
+    margin: 0px 20px 15px 20px;
+    padding: 0px 0px 20px 0px;
+    border-bottom: 1px solid var(--color-texto);
 }
 .plan {
     text-align: center;
-    margin: 30px;
+    margin: 0px 30px 30px 30px;
     padding: 30px;
     border-radius: 30px;
     background-color: var(--color-terciario);

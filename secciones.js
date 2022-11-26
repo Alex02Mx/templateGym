@@ -8,7 +8,7 @@ const cont_four = document.querySelector(".cont-four");
 const cont_five = document.querySelector(".cont-five");
 
 
-// ---------------------- Imagen Titulo Parrafo menu------------------------
+// ---------------------- Encabezados------------------------
 format_I_T_P.push({ inicio : {    
      imagen : "./assets/inicio/inicio-pos-01.jpg",
      alt : "imagen-inicio",
@@ -58,7 +58,7 @@ format_I_T_P.push({ sobre_nosotros : {
      description : "Porque nos apasiona lo que hacemos y nos gusta el Fitnes, creamos el gimnasio e implementamos una Cultura Fisica en donde podemos transmitir a nuestros clientes la importancia de mantenerse activos y realizar ejercicios.<br/><br/>Nuestro gimnasio cuenta con entrenadores certificados que le brindaran las directrices para poder establecer un plan de entrenamiento y asi usted pueda lograr las metas a traves del ejercicio continuo y las directrices de nuestros entrenadores.<br/><br/>Ven a nuestro gimnasio, te invitamos a que seas parte de la moda Fitnes la cual es una actividad física realizada de forma repetida (varias veces por semana) que tiene el objetivo de que nos sintamos mejor, tanto física como psicológicamente.",
 }})
 
-//------------------------Imagen Titulo Parrafo info------------------------------------------------
+//------------------------Secciones------------------------------------------------
 // inicio
 format_I_T_P.push({ unete : {    
     imagen : "./assets/inicio/inicio-pos-02.jpg",
@@ -84,24 +84,24 @@ format_I_T_P.push({ coach_two : {
 format_I_T_P.push({ sentadilla : {    
      imagen : "./assets/rutinas/rutinas-pos-02.jpg",
      alt : "foto sentallida",
-     titulo : "",
-     description : "Sentadillas con barra: 4 series x 8/10 reps.",
+     titulo : "Sentadillas con barra",
+     description : "4 series x 8/10 reps.",
 }});
 format_I_T_P.push({ prensa : {    
      imagen : "./assets/rutinas/rutinas-pos-03.jpg",
      alt : "foto prensa",
-     titulo : "",
-     description : "Prensa en máquina: 4 series x 8/10 reps",
+     titulo : "Prensa en máquina",
+     description : "4 series x 8/10 reps",
 }});format_I_T_P.push({ pesoMuerto : {    
      imagen : "./assets/rutinas/rutinas-pos-04.jpg",
      alt : "foto peso muerto",
-     titulo : "",
-     description : "Peso muerto: 4 series x 8/10 reps",
+     titulo : "Peso muerto",
+     description : "4 series x 8/10 reps",
 }});format_I_T_P.push({ zancada : {    
      imagen : "./assets/rutinas/rutinas-pos-05.jpg",
      alt : "foto zancada",
-     titulo : "",
-     description : "Zancada con mancuernas: 4 series x 8/10 reps.",
+     titulo : "Zancada con mancuernas",
+     description : "4 series x 8/10 reps.",
 }});
 
 // nutricion
@@ -150,7 +150,7 @@ function rend_I_T_P(seccion, container){
      }
 }
 
-// --------------- Titulo Parrafo Numero Parrafo Parrafo -----------------
+// ---------------Planes-----------------
 format_T_P_N_P_P.push({ mensual : {    
     plan : '"mensual plan"',
     type : "PLAN MENSUAL",
