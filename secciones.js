@@ -131,7 +131,8 @@ format_I_T_P.push({ beneficios : {
      description : "La constante actividad fisica tiene efectos positivos en la salud mental y mejora la calidad de vida, algunos de sus aportes son:<br><br>Disminución en la presión arterial, mejoras en la frecuencia cardíaca y la regulación del colesterol.<br><br>Disminución de la depresión.<br><br>Regulación del peso corporal.<br><br>Fortalecimiento de la autoestima.",
 }});
 
-function rend_I_T_P(seccion, container){
+function rend_I_T_P(seccion, container, sec){
+     let selec = sec;
      for (let items of format_I_T_P){
           for (let item in items){
                if (item == seccion){
@@ -140,7 +141,7 @@ function rend_I_T_P(seccion, container){
                     let titulo = items[item].titulo;
                     let description = items[item].description;
                     container.innerHTML+=`
-                    <div class="cont-titulo-parrafo">
+                    <div class=${selec}>
                          <img class="img-intro" src=${var_imagen} alt=${var_alt}>
                          <h2 class="sub-parrafo">${titulo}</h2>
                          <p class="parrafo-info">${description}</p>
