@@ -339,6 +339,7 @@ body {
     background-image: url(../icons/face-yellow.png);
     cursor: pointer;
 }
+
 .instagram:hover {
     background-image: url(../icons/instagram-yellow.png);
     cursor: pointer;
